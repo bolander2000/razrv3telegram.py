@@ -7,4 +7,4 @@ A biblioteca usada para montar o servidor web para python foi a biblioteca bottl
 
 Esse servidor somente exibia mensagens, não mandava mensagens para o telegram.
 
-Por ser um emaranhado de código, ser lento para processar os dados e por não ter acesso ao serviço pago do ngrok, decide reescrever a interface em php e mySQL.
+Por ser um emaranhado de código, ser lento para processar os dados e por não ter acesso ao serviço pago do ngrok, decide reescrever a interface em php e mySQL e montar um servidor LAMP.
