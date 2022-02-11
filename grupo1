@@ -1,0 +1,6 @@
+#!/bin/bash
+jq -f -r grupo1.jq filename > filename1
+jq -f -r v3.jq filename1 > loggrupo1filtro
+jq -r '"\(.nome), \(.date), \(.text)"' loggrupo1filtro > logtudogrupo1
+#encurtar nomes para exibir tudo melhor no v3 - nomes ficticios
+sed -i 's/José/| zé/g; s/Giovanni/| gigio/g; s/Fiat/| marea/g; s/Frank/| zappa/g' logtudogrupo1
